@@ -8,8 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeos888/"
+    "url": "https://github.com/zeos888/test-cc/"
   },
   "author": "Oleksiy Voyevodin",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "test-cc": "index.js"
+  },
+  "dependencies": {
+    "moment": "^2.21.0",
+    "request": "^2.83.0",
+    "ws": "^4.1.0"
+  }
 }
