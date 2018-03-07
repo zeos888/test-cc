@@ -16,8 +16,11 @@
     "test-cc": "index.js"
   },
   "dependencies": {
+    "mocha": "^5.0.2",
+    "mock-socket": "^7.1.0",
     "moment": "^2.21.0",
     "request": "^2.83.0",
+    "should": "^13.2.1",
     "ws": "^4.1.0"
   }
 }

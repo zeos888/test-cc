@@ -1,5 +1,5 @@
 {
   "timeout": "10",
-  "decimalPoints": "8",
-  "dateFormat": "mm:ss"
+  "decimalPoints": "4",
+  "dateFormat": "hh:mm:ss"
 }
