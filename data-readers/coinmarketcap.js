@@ -1,8 +1,7 @@
 const request = require('request');
 const url = 'https://api.coinmarketcap.com/v1/ticker/bitcoin/';
-module.exports = latest;
 
-function latest(callback) {
+module.exports.get = function (callback) {
     let r;
     request.get(url, {json: true}, (err, res, body) => {
         if (!err && res.statusCode == 200) {
@@ -10,4 +9,4 @@ function latest(callback) {
             callback(r);
         }
     });
-}
+};
